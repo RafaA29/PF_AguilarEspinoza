@@ -1,0 +1,156 @@
+header{
+    background-color:  rgb(0, 0, 0);   
+    display: flex;
+    gap: 10px; 
+    grid-gap: 10px;
+}
+    .display{
+          
+      display: flex;
+      padding-inline: 6rem;
+        height: 100vh;
+        background-image: linear-gradient(rgba(151, 134, 134, 0.021), rgba(0, 0, 0, 0.993)),url(../imagenes/principal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-inline: 200px;
+
+      }
+      .hero__textx {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+            h1{
+            text-align: center;
+            gap: 1rem;
+            color: rgb(243, 243, 243);
+            background-color: rgba(48, 28, 28, 0.075);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-size: 55px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h2{
+            color: aliceblue;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        h3{
+            color: aliceblue;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        button{
+            font-size: 35px;
+            color: #000000;
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 15px 55px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(36, 224, 30);
+            text-align: center;
+            cursor: pointer; 
+        }
+        button{
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 15px 55px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(36, 224, 30);
+            text-align: center;
+            cursor: pointer;
+
+            a:link{
+                text-decoration:none
+              }
+              .display-2 button:hover {
+                background-color: rgb(17, 173, 184);
+                color: rgb(255, 255, 255);
+                  
+              }
+            
+        }
+      }
+      .hero__textx .iconse {
+        text-align: center;
+
+        gap: .5rem;
+      }
+    
+    
+      .fa-facebook{
+       
+        color: blue;
+        font-size: 35px;
+      }
+      .fa-whatsapp{
+        color: chartreuse;
+        font-size: 35px;
+      }
+      .fa-tiktok{
+        color: aliceblue;
+        font-size: 35px;
+      }
+      
+      .fa-phone{
+        color: aliceblue;
+        font-size: 35px;  
+      }
+    
+      .copyright {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        margin: 1%;
+
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .copyright a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+          }
+
+      }     
+      .container p {
+  
+        margin-left: 10px;
+        font-size: 22px;
+        grid-area: text;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+      }
+      
+      .ubi {
+      
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+      }
+        
+      .animated-text{
+        text-align: center;
+        font-size: 60px;
+        background: linear-gradient(90deg, rgb(204, 0, 255), rgb(255, 0, 0), rgb(238, 255, 0)) 0 0 / 400% 100%;
+        animation: move-bg 4s infinite linear;
+        color: transparent;
+        -webkit-background-clip: text;
+      }
+      
+      @keyframes move-bg {
+        to {
+          background-position: 400% 0;
+        }
+      }

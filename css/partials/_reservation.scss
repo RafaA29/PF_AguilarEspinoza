@@ -1,0 +1,84 @@
+.reservation {
+    padding: 6rem;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image:
+        url("../imagenes/fondo\ bar.jpg"),
+        url("../imagenes/enjoy3.png");
+    background-size:
+        200px,
+        400px;
+    background-position:
+        100px center,
+        1150px 100px;
+  }
+  
+  .reservation__heading {
+    text-align: center;
+
+    h5{
+        color: #ef07f7;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.6rem;    
+    }
+
+    h4{
+        color: #cccccc;
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 2rem;    
+    }
+  }
+  .reservation__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "name   email"
+        "date   time"
+        "people button";
+    width: 36rem;
+    gap: 1rem;
+  }
+  
+  .reservation__form input {
+    padding: .75rem 1rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    color: black;
+  }
+  
+  .reservation__form .name {
+    grid-area: name;
+  }
+  
+  .reservation__form .email {
+    grid-area: email;
+  }
+  
+  .reservation__form .date {
+    grid-area: date;
+  }
+  
+  .reservation__form .time {
+    grid-area: time;
+  }
+  
+  .reservation__form .people {
+    grid-area: people;
+  }
+  
+  .reservation__form .button {
+    grid-area: button;
+    border: 0;
+    background-color: #b81717;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+  }

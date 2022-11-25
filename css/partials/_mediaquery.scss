@@ -1,0 +1,180 @@
+@media screen and (max-width: 768px) {
+
+
+    .hero__header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+  
+    .header__right {
+        align-items: flex-start;
+    }
+  
+    .hero__img {
+        padding-top: 0;
+    }
+  
+    .hero__img img {
+        max-width: 100%;
+    }
+  
+    .hero__main {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  
+    .grid__item {
+        flex: 1;
+    }
+  
+    .grid__item1 {
+        padding-bottom: 7rem;
+    }
+  
+    .enjoy {
+        padding: 2rem;
+    }
+  
+    .titles {
+        padding-inline: 0;
+    }
+  
+    .cards {
+        flex-direction: column;
+    }
+
+    
+    .heros__header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+  
+    .heros__img {
+        padding-top: 0;
+    }
+  
+    .heros__img img {
+        max-width: 100%;
+    }
+  
+    .heros__main {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  
+    .grids {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  
+    .grids__item {
+        flex: 1;
+    }
+  
+    .grids__item1 {
+        padding-bottom: 7rem;
+    }
+    
+    .grids__item2 {
+        padding-bottom: 7rem;
+    }
+
+    .grids__item3 {
+        padding-bottom: 7rem;
+    }
+
+    .grids__item4 {
+        padding-bottom: 7rem;
+    }
+
+    .grids__item5 {
+        padding-bottom: 7rem;
+    }
+    .enjoys {
+        padding: 2rem;
+    }
+  
+    .titless {
+        padding-inline: 0;
+    }
+  
+    .cardsss {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .events {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  
+    .events .inner {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  
+    .events .inner__right {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  
+    .dots {
+        bottom: 0;
+    }
+  
+    .reservation {
+        padding: 2rem;
+        background-image: none;
+    }
+  
+    .reservation__form {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    footer {
+        padding: 2rem;
+    }
+  
+    .footer__top {
+        flex-direction: column;
+        padding: 0;
+        gap: 2rem;
+    }
+  
+    .address {
+        align-items: flex-start;
+    }
+  
+    .footer__bottom {
+        flex-direction: column;
+        gap: 1rem;
+    }
+  
+    .footer__bottom .icons {
+        order: -1;
+    }
+    
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .hero__main {
+        flex-direction: column;
+    }
+  }
+  

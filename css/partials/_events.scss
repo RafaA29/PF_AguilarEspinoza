@@ -1,0 +1,47 @@
+.events {
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 6rem;
+    padding-top: 0;
+  }
+  
+  .inner {
+    display: flex;
+    padding: 2rem;
+    box-shadow: 15px 15px 30px #00ffdd;
+  }
+  
+  .inner__left {
+    padding-block: 2rem;
+    padding-right: 2rem;
+    flex: 1;
+    position: relative;
+    
+    h5{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #881f68;
+        letter-spacing: 1px;    
+    }
+
+    h3{
+        color: #00fde8;
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 2rem; 
+    }
+
+    p{
+        font-family: 'Lato', sans-serif;
+        color: #ffffff;
+        font-size: 1.1rem;   
+    }
+
+    .inner__right {
+        flex: 1.25;
+        min-width: 0;
+      }
+      
+      .inner__right img {
+        max-width: 100%;
+      }
+  }

@@ -1,0 +1,140 @@
+.heros {
+  
+    background-color: #000000;
+
+    .heros__header {
+    
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-bottom: 0;
+      }
+      .heros__main {
+
+        display: flex;
+        padding-inline: 6rem;
+      }
+      .heros__main > div {
+        flex: 1;
+      }
+      .heros__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h4{
+            color: #ff00d4;
+            font-family: 'Bebas Neue', cursive;
+            font-weight: 300;
+            font-size: 1.2rem;
+            border: 2px dashed #ffffff;
+            width: max-content;
+            padding: .6rem;
+            padding-bottom: .4rem;
+            margin-bottom: 1rem;  
+        }
+
+        h2{
+            color: rgb(0, 224, 240);
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 5rem;
+            line-height: 1;
+            text-shadow: 4px 4px 0 rgb(0, 0, 0);  
+        }
+
+        h3{
+            color: #ffffff;
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 3rem;
+            text-shadow: 4px 4px 0 rgb(0, 0, 0); 
+        }
+      }
+      .heros__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-block: 3rem;
+        position: relative;
+      }
+      
+      .heros__img img {
+        max-width: 900px;
+      }
+      
+    }
+
+.hero {
+  
+    background-color: #000000f1;
+
+   .hero__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-bottom: 0;
+        }
+        .header__right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+        }    
+        p{
+        font-family: 'Lato', sans-serif;  
+        }
+        .hero__main {
+        display: flex;
+        padding-inline: 6rem;
+        }
+              
+        .hero__main > div {
+        flex: 1;
+        }
+              
+        .hero__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h4{
+                color: #ffffff;
+                font-family: 'Bebas Neue', cursive;
+                font-weight: 300;
+                font-size: 1.2rem;
+                border: 2px dashed #ffffff;
+                width: max-content;
+                padding: .6rem;
+                padding-bottom: .4rem;
+                margin-bottom: 1rem;   
+                }
+
+            h2{
+                color: aliceblue;
+                font-family: 'Alfa Slab One', cursive;
+                font-size: 5rem;
+                line-height: 1;
+                text-shadow: 4px 4px 0 rgb(0, 0, 0);    
+            }
+             
+            h3{
+                color: #ffffff;
+                font-family: 'Alfa Slab One', cursive;
+                font-size: 3rem;
+                text-shadow: 4px 4px 0 rgb(0, 0, 0);  
+            }
+        }
+        .hero__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-block: 3rem;
+        position: relative;
+        }
+                  
+        .hero__img img {
+        max-width: 400px;
+        }
+}
+
+
+           

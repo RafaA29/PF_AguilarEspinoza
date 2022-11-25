@@ -1,0 +1,81 @@
+.cardsss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+  gap: 3rem;
+  }
+  
+  .cardss {
+    background-color: #000000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    img{
+        box-shadow: 15px 15px 30px #ff04ff;
+        width: 400px;
+        height: 400px; 
+    }
+
+    h4{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.6rem;    
+    }
+
+    p{
+        font-family: 'Lato', sans-serif;
+        width: 75%;
+        text-align: center;
+    }
+
+    a{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1rem;
+        background-color: #b81717;
+        padding: .75rem 1rem;
+        color: white;
+        text-decoration: none;
+    }
+  }
+
+.cards {
+  
+    display: flex;
+  }
+  
+  .card {
+    background-color: #000000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    img{
+        max-width: 100%;  
+    }
+
+    h4{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.6rem;  
+    }
+
+    p{
+        font-family: 'Lato', sans-serif;
+        width: 75%;
+        text-align: center;    
+    }
+
+    a{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1rem;
+        background-color: #b81717;
+        padding: .75rem 1rem;
+        color: white;
+        text-decoration: none;   
+    }
+  }
